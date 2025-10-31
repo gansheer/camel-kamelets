@@ -32,7 +32,7 @@ permissions:
 
 jobs:
   check-doc:
-    if: github.repository == 'apache/camel-kamelets'
+    #if: github.repository == 'apache/camel-kamelets'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout camel-quarkus repo
